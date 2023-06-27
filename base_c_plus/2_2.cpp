@@ -11,11 +11,14 @@ int main(void)
     cout << "You won't regret it." << endl;
     return 0; */
 
-    int carrots = 25;
+    int carrots;
+    int input;
+    carrots = 25;
     cout << "I have ";
     cout << carrots;
     cout << endl;
+    cin >> input;
+    cout << input; 
     
     return 0;
-
 }
